@@ -86,3 +86,8 @@ To run on your machine, use the following commands:
         npx expo start
         ```
 
+---
+
+This project was done in collaboration with @mihir-gawade, @shelke-suraj, @Dimpalpatil, @vivekthorat022
+
+
