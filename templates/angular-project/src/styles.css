@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Light theme (default) :  */
+:root {
+    --brand-color: #b30f43;
+    --background-color: #cd1b53;
+    --on-click: #E77823;
+
+    /* supporting colors : green, yellow, red, blue */
+    --supporting-green: hsl(133, 76%, 49%);
+    --supporting-yellow: hsl(56, 76%, 54%);
+    --supporting-red: hsl(355, 79%, 52%);
+    --supporting-blue: hsl(215, 77%, 53%);
+
+    --gray: hsl(204, 17%, 32%);
+
+    --color-01: #B30F43;
+    --color-02: #1B998B;
+    --color-03: #A79AB2;
+    --color-04: #FFFD82;
+    --color-05: #FF9B71;
+
+
+
+    /* ========== FINAL ========== */
+
+    /* headbar */
+    --head-bar-background-color: #f9f9f9;
+    --head-bar-text-highlight-color: #2A79C4;
+    --head-bar-text-color: #000000;
+
+    /* navbar */
+    --nav-bar-background-color: #f3f3f3;
+    --nav-bar-shadow-color: #6c6c6c;
+    --nav-bar-bottom-box-color: #2A79C4;
+    --nav-bar-text-color: #212121;
+    --nav-bar-division-color: #000000;
+    --nav-bar-menu-element-hover-color: #929292;
+
+    /* homepage */
+    --homepage-background-color: #FFFFFF;
+    --homepage-background-color: #e6e3e3;
+    --homepage-block-background-color: #f9f9f9;
+    --homepage-block-hover-background-color: #f9f9f9;
+
+    /* footer */
+    --footer-background-color: #c5c5c5;
+    --footer-division-color: #dfdfdf;
+    --footer-main-text-color: #1E1E1E;
+    --footer-sub-text-color: #1E1E1E;
+    --footer-text-highlight-color: #2A79C4;
+}
+
+/* Dark theme :  */
+[data-theme="dark"] {
+
+    /* headbar */
+    --head-bar-background-color: #282828;
+    --head-bar-text-highlight-color: #2A79C4;
+    --head-bar-text-color: #dcdcdc;
+
+    /* navbar */
+    --nav-bar-background-color: #282828;
+    --nav-bar-shadow-color: #4c4c4c;
+    --nav-bar-bottom-box-color: #676767;
+    --nav-bar-text-color: #dcdcdc;
+    --nav-bar-division-color: #afafaf;
+
+    /* homepage */
+    --homepage-background-color: #3c3c3c;
+    --homepage-block-background-color: #5f5f5f;
+    --homepage-block-hover-background-color: #8b8b8b;
+
+    /* footer */
+    --footer-background-color: #282828;
+    --footer-division-color: #CECECF;
+    --footer-main-text-color: #ffffff;
+    --footer-sub-text-color: #dcdcdc;
+    --footer-text-highlight-color: #2A79C4;
+
+}

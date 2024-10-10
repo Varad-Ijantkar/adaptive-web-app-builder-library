@@ -1,0 +1,97 @@
+.footer {
+    background-color: var(--footer-background-color);
+
+}
+
+.footer .main_container {
+    background-color: var(--footer-background-color);
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--footer-main-text-color);
+    /* gap: 20px; */
+    width: 60vw;
+    margin: auto;
+}
+
+.footer .main_container .sub_section_01 {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--footer-sub-text-color);
+    padding: 30px 0px;
+}
+
+.footer .main_container .division {
+    height: 1px;
+    width: 100%;
+    background-color: var(--footer-division-color);
+}
+
+.footer .main_container .sub_section_02 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px 0px;
+
+    color: var(--footer-main-text-color);
+    letter-spacing: 0.5px;
+}
+
+.footer .main_container .sub_section_02 ul {
+    color: var(--footer-sub-text-color);
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.footer .main_container .sub_section_02 ul li {
+    &:hover {
+        text-decoration: underline;
+        color: var(--footer-text-highlight-color);
+    }
+}
+
+.footer .main_container .sub_section_03 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: var(--footer-sub-text-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    font-size: 13px;
+}
+
+.footer .main_container .sub_section_03 span {
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+        color: var(--footer-text-highlight-color);
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .footer .main_container {
+        width: 85vw;
+    }
+
+    .footer .main_container .sub_section_03 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:600px) {
+    .footer .main_container .sub_section_03 {
+        flex-direction: column;
+    }
+}

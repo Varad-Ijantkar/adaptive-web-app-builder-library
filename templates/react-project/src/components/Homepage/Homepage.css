@@ -1,0 +1,76 @@
+body {
+   background-color: var(--homepage-background-color);
+}
+
+.homepage {
+   background-color: var(--homepage-background-color);
+   padding: 50px;
+   box-sizing: border-box;
+}
+
+.homepage .main_container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+}
+
+.homepage .main_container .element {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 50vh;
+   width: 90vw;
+   background-color: var(--element-background-color);
+   border-radius: 15px;
+   transition: all 0.25s ease-in-out;
+   cursor: pointer;
+   padding: 20px;
+   text-align: center;
+}
+
+.homepage .main_container .element h2 {
+   margin-bottom: 15px;
+   font-size: 2rem;
+   color: var(--element-text-color);
+}
+
+.homepage .main_container .element p {
+   margin-bottom: 10px;
+   font-size: 1.2rem;
+   color: #666;
+}
+
+.homepage .main_container .element ol {
+   margin: 20px 0;
+   padding-left: 20px;
+   text-align: left;
+}
+
+.homepage .main_container .element ol li {
+   margin-bottom: 10px;
+   font-size: 1rem;
+   color: #444;
+}
+
+.homepage .main_container .element button {
+   margin-top: 20px;
+   padding: 10px 20px;
+   font-size: 1rem;
+   color: white;
+   background-color: var(--button-background-color);
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+
+.homepage .main_container .element button:hover {
+   background-color: var(--button-hover-color);
+}
+
+.homepage .main_container .element:hover {
+   transform: scale(1.015);
+   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}

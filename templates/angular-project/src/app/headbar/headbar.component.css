@@ -1,0 +1,91 @@
+.head_bar .main_container {
+    background-color: var(--head-bar-background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    font-weight: 100;
+}
+
+.head_bar .main_container .start_block .language_button {
+    background-color: var(--head-bar-background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    border: none;
+
+    &:hover .text {
+        color: var(--head-bar-text-highlight-color);
+        text-decoration: underline;
+    }
+
+    &:hover .globe {
+        fill: var(--head-bar-text-highlight-color);
+    }
+
+    &:hover .down_arrow {
+        fill: var(--head-bar-text-highlight-color);
+    }
+}
+
+.head_bar .main_container .start_block .language_button span .globe {
+    width: 15px;
+}
+
+.head_bar .main_container .start_block .language_button span .down_arrow,
+.head_bar .main_container .end_block .quick_links .quick_link_element .down_arrow {
+    width: 20px;
+}
+
+.head_bar .main_container .end_block .quick_links {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 25px;
+}
+
+.head_bar .main_container .end_block .quick_links .quick_link_element a {
+    text-decoration: none;
+    color: var(--head-bar-text-color);
+    font-weight: 400;
+}
+
+.head_bar .main_container .end_block .quick_links .quick_link_element:hover a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color: var(--head-bar-text-highlight-color);
+}
+
+.head_bar .main_container .end_block .quick_links .quick_link_element .resources_element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.division {
+    height: 1px;
+    width: 100%;
+    background-color: #E5E6E9;
+}
+
+.head_bar .main_container .start_block .language_button .text {
+    color: var(--head-bar-text-color);
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    .head_bar .main_container {
+        font-size: 12px;
+        padding: 1px 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .head_bar {
+        display: none;
+    }
+}

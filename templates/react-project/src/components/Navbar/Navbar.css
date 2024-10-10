@@ -1,0 +1,139 @@
+/* .navbar {
+   
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    z-index: 20;
+
+  }
+  
+  .navbar-logo img {
+    height: 40px; 
+    margin-left: 40px;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+  }
+  
+  .navbar-links li {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    transition:transform 0.2s ease-in-out;
+
+    &:hover{
+      transform: scale(1.1);
+    
+    }
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+    transition:transform 0.1s ease-in-out;
+  }
+
+  .navbar-links a:hover{
+    color: coral;
+    transform: scale(1.1);
+  }
+
+  .navbar-icons{
+    display: flex;
+    gap: 20px;
+  }
+
+  .navbar-icons a {
+    text-decoration: none;
+    color: black; 
+    font-size: 20px; 
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-icons a:hover {
+    color: coral; 
+  }
+  /*For Mobile Screen*/
+  /* @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+    }
+  } */
+ /* Navbar Styling */
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px 20px;
+    background-color: var(--navbar-bg-color); /* Use variable for background color */
+    border-bottom: 1px solid var(--navbar-border-color); /* Use variable for border */
+    z-index: 1000; /* Ensure the navbar stays above other content */
+}
+
+/* Logo Styling */
+.navbar-logo img {
+    height: 40px;
+    margin-left:40px;
+}
+
+/* Navbar Links */
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navbar-links li {
+    font-size: 18px;
+    font-weight: 400;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Link Styling */
+.navbar-links a {
+    text-decoration: none;
+    color: var(--navbar-text-color); /* Use variable for text color */
+    transition: color 0.3s ease, transform 0.1s ease-in-out;
+}
+
+.navbar-links a:hover {
+    color: var(--navbar-link-hover-color); /* Use variable for hover color */
+    transform: scale(1.1); /* Slightly scale the link on hover */
+}
+
+/* Navbar Icons */
+.navbar-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-icons a {
+    text-decoration: none;
+    color: var(--navbar-text-color); /* Use variable for icon color */
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-icons a:hover {
+    color: var(--navbar-link-hover-color); /* Use variable for hover color */
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none; /* Hide links on smaller screens */
+    }
+}

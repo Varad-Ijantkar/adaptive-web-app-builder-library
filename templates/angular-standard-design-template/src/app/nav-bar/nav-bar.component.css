@@ -1,0 +1,168 @@
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.navbar .container-fluid {
+    background-color: var(--nav-bar-background-color);
+    margin: 0px;
+    padding: 7px 30px;
+}
+
+.navbar .container-fluid .start-block {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar .container-fluid .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--nav-bar-text-color);
+}
+
+.navbar .container-fluid .form-control {
+    width: 170px;
+}
+
+.navbar .container-fluid .search-section {
+    margin-right: 9px;
+}
+
+.navbar .container-fluid .navbar-collapse .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .navigation-buttons {
+    background-color: var(--nav-bar-background-color);
+    border: none;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.1s ease-in-out;
+    color: var(--nav-bar-text-color);
+    /* background-color: red; */
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:hover .bottom-color {
+        opacity: 1;
+    }
+}
+
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .navigation-buttons .bottom-color,
+.navbar .container-fluid .end-block .nav-button .bottom-color {
+    height: 4px;
+    background-color: var(--nav-bar-bottom-box-color);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.navbar .container-fluid .end-block {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+}
+
+.navbar .container-fluid .end-block .nav-button {
+    border: none;
+    background-color: var(--nav-bar-background-color);
+    /* background-color: red; */
+    height: 55px;
+    position: relative;
+    transition: transform 0.1s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &:hover .bottom-color {
+        opacity: 1;
+    }
+}
+
+/* .navbar .container-fluid .end-block .nav-button .svgs {
+    width: 50px;
+} */
+
+.navbar .container-fluid .end-block .nav-button .profile-svg {
+    width: 46px;
+}
+
+.navbar .container-fluid .end-block .nav-button .theme-svg {
+    width: 31px;
+}
+
+.navbar .container-fluid .end-block .nav-button .search-svg {
+    width: 32px;
+}
+
+.rotate {
+    transition: transform 0.9s ease;
+}
+
+.rotate.rotated {
+    transform: rotate(360deg);
+}
+
+@media screen and (max-width:991px) {
+    .navbar .container-fluid .search-section .form-control {
+        display: none;
+    }
+
+    .navbar .container-fluid {
+        height: 65px;
+    }
+
+    .navbar .container-fluid .navbar-collapse{
+        width: 100vw;
+    }
+
+
+
+    .navbar .container-fluid .navbar-collapse .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .navbar .container-fluid .end-block {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 7px 20px;
+    }
+
+    .navbar-toggler {
+        /* background-color: #333; */
+        background-color: var(--nav-bar-toggler-background-color);
+        padding: 0px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3e%3cpath stroke="%23333333" stroke-width="3" d="M5 7h20M5 15h20M5 23h20"/%3e%3c/svg%3e');
+        stroke: var(--nav-bar-toggler-stroke-color);
+        height: 30px;
+        width: 30px;
+    }
+
+}

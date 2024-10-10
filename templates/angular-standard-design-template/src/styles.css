@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root {
+    /* Navbar */
+    --nav-bar-background-color: #F8F9FA;
+    --nav-bar-text-color: #050505;
+    --nav-bar-bottom-box-color: #2A79C4;
+    --nav-bar-toggler-background-color: #F8F9FA;
+    --nav-bar-toggler-stroke-color: #333333;
+
+    /* Homepage */
+    --home-page-background-color: #71cfe9;
+    --home-page-block-background-color: #f5f5f5;
+}
+
+[data-theme="dark"] {
+    /* Navbar */
+    --nav-bar-background-color: #1F1F1F;
+    --nav-bar-text-color: #f5f5f5;
+    --nav-bar-bottom-box-color: #2A79C4;
+    --nav-bar-toggler-background-color: #F8F9FA;
+    --nav-bar-toggler-stroke-color: #333333;
+
+    /* Homepage */
+    --home-page-background-color: #353535;
+    --home-page-block-background-color: #626262;
+}

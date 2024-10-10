@@ -1,0 +1,38 @@
+.homepage .main_container .element_01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.homepage .main_container {
+    padding:250px 0px;
+}
+
+
+.homepage .main_container .element_01 h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.homepage .main_container .element_01 p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.homepage .main_container .element_01 ol {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.homepage .main_container .element_01 button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}

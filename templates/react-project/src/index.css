@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --homepage-background-color : #f9f9f9;
+  --homepage-background-color: #f0f0f0; /* Homepage background color */
+  --element-background-color: #ffffff; /* Element background color */
+  --element-text-color: #333; /* Element text color */
+  --button-background-color: #007bff; /* Button background color */
+  --button-hover-color: #0056b3; /* Button hover color */
+  --sidebar-bg-color: #ffffff; /* Sidebar background color */
+  --sidebar-text-color: #000000; /* Sidebar text color */
+  --sidebar-hover-color: coral; /* Sidebar hover color */
+  --sidebar-border-color: #ddd; /* Sidebar border color */
+  --navbar-bg-color: #ffffff; /* Navbar background color */
+  --navbar-text-color: #000000; /* Navbar text color */
+  --navbar-link-hover-color: coral; /* Navbar link hover color */
+  --navbar-border-color: #ddd; /* Navbar bottom border color */
+}
+
+/* Main content styling (to apply blur) */
+.main-content {
+  transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}
+
+.main-content.blur {
+  filter: blur(5px); /* Apply blur when sidebar is open */
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  border-bottom: 2px solid var(--accent-color);
+}
