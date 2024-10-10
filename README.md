@@ -88,6 +88,7 @@ To run on your machine, use the following commands:
 
 ---
 
-This project was done in collaboration with @mihir-gawade, @shelke-suraj, @Dimpalpatil, @vivekthorat022
+This project was done in collaboration with [Mihir Gawade](https://github.com/mihir-gawade), [Shelke Suraj](https://github.com/shelke-suraj), [Dimpal Patil](https://github.com/Dimpalpatil), and [Vivek Thorat](https://github.com/vivekthorat022)
+
 
 
