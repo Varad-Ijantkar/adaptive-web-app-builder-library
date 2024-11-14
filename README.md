@@ -1,4 +1,4 @@
-# Magnus - Adaptive Web App Builder Library
+# Magns - Adaptive Web App Builder Library
 
 Magnus is a powerful CLI tool designed to help developers quickly set up pre-compiled projects using popular frameworks such as Angular, React, and React Native. With just a few simple commands, you can generate a fully functional project and start coding right away.
 
