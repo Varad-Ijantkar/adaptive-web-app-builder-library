@@ -6,16 +6,16 @@ Magnus is a powerful CLI tool designed to help developers quickly set up pre-com
 
 To run on your machine, use the following commands:
 
-1. **Install the Magnus CLI tool globally:**
+1. **Install the Magns CLI tool globally:**
 
     ```bash
-    npm install -g magnus
+    npm install -g magns
     ```
 
 2. **Create a new project:**
 
     ```bash
-    magnus create
+    magns create
     ```
 
 3. **Follow the prompts:**
@@ -47,13 +47,13 @@ To run on your machine, use the following commands:
 5. **Install the Magnus CLI tool globally:**
 
     ```bash
-    npm install -g magnus
+    npm install -g magns
     ```
 
 6. **Create a new project using Magnus:**
 
     ```bash
-    magnus create
+    magns create
     ```
 
 7. **Select the framework you want to use.**
