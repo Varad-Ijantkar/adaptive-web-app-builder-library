@@ -123,6 +123,7 @@
 //   });
 
 // program.parse(process.argv);
+
 const { Command } = require("commander");
 const inquirer = require("inquirer");
 const { createAngularProject } = require("../lib/create-angular-project");
@@ -136,7 +137,7 @@ const { applyColorPalette } = require("../lib/apply-color-palette");
 
 const program = new Command();
 
-program.version("1.0.0").description("Adaptive Web App Builder CLI");
+program.version("1.0.3").description("Adaptive Web App Builder CLI");
 
 // Command to create a new project
 program
